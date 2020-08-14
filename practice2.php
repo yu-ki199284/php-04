@@ -4,9 +4,10 @@ echo "\n------PHP/Laravel 03 課題------\n";
 
 echo "\n------課題１------\n";
 $name = "yuuki";
-if($name = "yuuki"){
+
+if($name == "yuuki"){
     echo "私はあなたの名前です。" . "\n";
-}else{
+} else {
     echo "あなたの名前ではありません。" . "\n";
 }
 
